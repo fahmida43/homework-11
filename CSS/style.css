@@ -1,0 +1,100 @@
+/* Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: o;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+/*// Common Css End */
+/* Nav Section Css Start */
+#nav{
+    background-color: #131e29;
+}
+#nav .row{
+    align-items: center;
+}
+#nav .logo{
+    width: 20%;
+}
+#nav .logo img{
+    display: block;
+} 
+#nav .menu{
+    width: 80%;
+}
+#nav .menu ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0;
+}
+#nav .menu ul li a{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    padding: 45px 18px;
+    text-transform: uppercase;
+}
+#nav .menu ul li:hover a{
+    color: #48c2f5;
+}
+
+
+
+
+
+/* //Nav Section Css End /*
+
+
+/* Banner Section Css Start */
+#banner{
+    
+    background-image: url(../img/Bazinger-background.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .content h1{
+    
+    padding-top: 247px; 
+   font-size: 48px;
+   color: #fff;
+
+}
+#banner .content p{
+    width: 673px;
+    padding-top: 29px;
+    padding-bottom: 314px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+/* //Banner Section Css End */
